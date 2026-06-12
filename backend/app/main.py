@@ -4,7 +4,7 @@ from fastapi.responses import FileResponse
 
 app = FastAPI(title="SmartBin API")
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/assets", StaticFiles(directory="static/assets"), name="assets")
 
 @app.get("/")
 def root():
