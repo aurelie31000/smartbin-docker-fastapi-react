@@ -1,0 +1,1 @@
+# smartbin-docker-fastapi-react
